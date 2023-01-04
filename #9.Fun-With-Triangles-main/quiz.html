@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <nav style="text-align: center;">
+        <a style="border: 1px solid black; padding: 0.1rem;" href="./index.html">Is it a Triangle</a>
+        <a style="border: 1px solid black; padding: 0.1rem;" href="./quiz.html">Quiz on Triangle</a>
+        <a style="border: 1px solid black; padding: 0.1rem;" href="./hypotenuse.html">Find Hypotenuse</a>
+        <a style="border: 1px solid black; padding: 0.1rem;" href="./areatriangle.html">Find Area</a>
+    </nav>
+    <div style="text-align: center;">
+    <h1>The Triangle Quiz!</h1>
+    <form class="quiz-form">
+        
+        <p><strong>Question 1:</strong>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? </p>
+        <label><input type="radio" name="question1" value="45°">45°</label>
+        <label><input type="radio" name="question1" value="90°">90°</label>
+        <label><input type="radio" name="question1" value="60°">60°</label>
+        
+        <p><strong>Question 2:</strong>If a triangle has an angle of 90 degrees, what is it called? </p>
+        <label><input type="radio" name="question2" value="obtuse">obtuse</label>
+        <label><input type="radio" name="question2" value="acute">acute</label>
+        <label><input type="radio" name="question2" value="right angled">right angled</label>
+        
+        <p><strong>Question 3:</strong>Which of the following triangles are always similar? </p>
+        <label><input type="radio" name="question3" value="Equilateral Triangle">Equilateral Triangle</label>
+        <label><input type="radio" name="question3" value="Isosceles Triangle">Isosceles Triangle</label>
+        <label><input type="radio" name="question3" value="Scalen Triangle">Scalen Triangle</label>
+
+        <p><strong>Question 4:</strong>A triangle can have? </p>
+        <label><input type="radio" name="question4" value="one right angle">one right angle</label>
+        <label><input type="radio" name="question4" value="two right angles">two right angles</label>
+        <label><input type="radio" name="question4" value="three right angles">three right angles</label>
+
+        <p><strong>Question 5:</strong>Which of the following can form a right angled triangle? </p>
+        <label><input type="radio" name="question5" value="14,15,26">14,15,26</label>
+        <label><input type="radio" name="question5" value="12,26,20">12,26,20</label>
+        <label><input type="radio" name="question5" value="12,24,18">12,24,18</label>
+        
+    </form>
+    <br>
+    <button id="submit-answer-btn">Submit Answer</button>
+    <h2 id="output-area"></h2>
+    </div>
+    <script src="./quiz.js"></script>
+</body>
+</html>
